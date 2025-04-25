@@ -19,12 +19,13 @@ Script ini akan mengakses beberapa endpoint JupyterHub secara berkala agar sesi 
 
 ```python
 import requests
+import requests
 import time
 
 # Define your session details (Replace these with actual values)
 SESSION_ID = "isi cookienya disini"
 XSRF_TOKEN = "isi cookienya disini"
-JUPYTERHUB_USER = "isi cookienya disini"
+JUPYTERHUB_USER = "isi cokienya disini"
 
 # Define the base URL
 BASE_URL = "isi url jupyter nya tanpa /lab dan seterusnya"
@@ -41,9 +42,9 @@ endpoints = [
 # Headers for authentication
 headers = {
     "accept": "*/*",
-    "authorization": "token your_jupyter_token",  # Ganti dengan token Jupyter Anda
+    "authorization": "token your_jupyter_token",  # Replace with your actual token
     "content-type": "application/json",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
     "x-xsrftoken": XSRF_TOKEN,
 }
 
