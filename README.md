@@ -101,7 +101,7 @@ cd freeroot
 ```bash
 ./root.sh
 ```
-# atau
+**atau**
 ```bash
 bash root.sh
 ```
