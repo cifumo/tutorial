@@ -19,7 +19,6 @@ Script ini akan mengakses beberapa endpoint JupyterHub secara berkala agar sesi 
 
 ```python
 import requests
-import requests
 import time
 
 # Define your session details (Replace these with actual values)
